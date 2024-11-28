@@ -1,0 +1,25 @@
+- name: update homebrew
+  community.general.homebrew:
+    update_homebrew: true
+
+- name: upgrade homebrew
+  community.general.homebrew:
+    upgrade_all: true
+
+- name: install homebrew packages
+  community.general.homebrew:
+    name:
+      - bat
+      - curl
+      - fd
+      - gh
+      - git
+      - jq
+      - mas
+      - pipenv
+      - starship
+      - trash-cli
+      - tree
+      - vim
+      - wget
+      - zsh

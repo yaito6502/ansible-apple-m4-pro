@@ -1,0 +1,3 @@
+[all:vars]
+ansible_become=true
+ansible_become_user=your_mac_user_name

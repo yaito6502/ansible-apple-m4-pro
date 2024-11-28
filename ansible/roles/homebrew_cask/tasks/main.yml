@@ -1,0 +1,26 @@
+- name: upgrade all casks
+  community.general.homebrew_cask:
+    upgrade_all: true
+
+- name: install homebrew cask packages
+  community.general.homebrew_cask:
+    name:
+      - android-studio
+      - appcleaner
+      - arc
+      - applite
+      - cheatsheet
+      - discord
+      - docker
+      - figma
+      - local
+      - notion
+      - obsidian
+      - ogdesign-eagle
+      - raycast
+      - the-unarchiver
+      - tradingview
+      - visual-studio-code
+      - warp
+      - wechat
+      - zoom
