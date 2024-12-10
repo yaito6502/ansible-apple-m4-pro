@@ -12,11 +12,15 @@
       - bat
       - curl
       - fd
+      - fzf
       - gh
       - git
       - jq
+      - lsd
       - mas
+      - nodenv
       - pipenv
+      - safe-rm
       - starship
       - trash-cli
       - tree
