@@ -46,3 +46,7 @@ if [ ! -d "$HOME/.zim" ]; then
 else
     echo "Zimfw は既にインストールされています"
 fi
+
+echo "=== dotfilesをインストール中 ==="
+chezmoi init https://github.com/yaito6502/chezmoi-dotfiles.git
+chzemoi apply
