@@ -1,0 +1,10 @@
+---
+- name: set up
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  roles:
+    - homebrew
+    - homebrew_cask
+    - mac_app_store

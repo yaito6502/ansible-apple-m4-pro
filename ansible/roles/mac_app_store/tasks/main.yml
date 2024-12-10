@@ -1,0 +1,10 @@
+- name: upgrade applications from app store
+  community.general.mas:
+    upgrade_all: true
+
+- name: install applications from app store
+  community.general.mas:
+    id:
+      - 539883307 # LINE
+      - 497799835 # Xcode
+      - 1429033973 #RunCat
